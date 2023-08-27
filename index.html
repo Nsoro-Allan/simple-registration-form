@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="title">
+            <h1>Registration Form</h1>
+            <p>Please fill out this form with the required information</p>
+        </div>
+
+        <div class="content">
+            <form action="">
+
+                <label>Enter Your First Name:</label>
+                <input type="text">
+
+                <label>Enter Your Last Name:</label>
+                <input type="text">
+
+                <label>Enter Your Email:</label>
+                <input type="email">
+
+                <label>Create a New Password:</label>
+                <input type="password">
+
+                <div class="line"></div>
+
+                <div class="sub-content">
+                    
+                    <div class="input">
+                        <input type="radio" name="account">
+                        <p>Personal Account</p>
+                    </div>
+                    
+                    <div class="input">
+                        <input type="radio" name="account">
+                        <p>Business Account</p>
+                    </div>
+                    
+                    <div class="input">
+                        <input type="checkbox" name="account">
+                        <p>I accept the <a href="#">terms and conditions</a></p>
+                    </div>
+
+                </div>
+
+
+                <div class="line"></div>
+
+                <label>Upload a profile picture</label>
+                <input type="file">
+
+                <label>Input your age (years)</label>
+                <input type="text">
+
+                <label>How did you hear about us?</label>
+                <select>
+                    <option>(Select one)</option>
+                    <option>From a Friend</option>
+                    <option>Instagram</option>
+                    <option>Facebook</option>
+                    <option>Google</option>
+                </select>
+
+                <label>Provide a bio:</label>
+                <textarea cols="30" rows="4" placeholder="I like coding on the beach..."></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
